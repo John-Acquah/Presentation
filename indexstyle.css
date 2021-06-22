@@ -1,0 +1,250 @@
+.navbar{
+
+	background-color: #060320;
+	padding: 5rem 8rem;
+	font-family: sans-serif;
+	z-index: 1000;
+	height: 4rem;
+
+}
+.navbar-brand{
+		font-size: 1.5rem;
+		font-weight: 650;
+		color: white;
+		font-family: cursive;
+
+	}
+	#navbarSupportedContent > ul > li:nth-child(n) > a{
+
+		color: #fff;
+		font-size: 1.1rem;
+		padding: 0 0.9rem;
+	}
+	#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+		color: #9BF3C0;
+	}
+
+	#navbarSupportedContent >button {
+
+		background-color:#9BF3C0 ;
+		font-weight: 600;
+		font-family: cursive;
+		padding: 0.4rem 0.7rem;
+		border-radius: 10rem;
+	}
+
+
+	.nav-link1{
+
+
+		color: white;
+		font-style: none;
+		font-size: 1rem;
+		border-radius: 10px;
+
+	}
+
+
+
+	#footer{
+
+		height: 10rem;
+		width: 100%;
+		background-color:#23789B;
+	}
+
+
+	.footer-names{
+
+		display: flex;
+		color: white;
+		list-style: none;
+		margin-left: 40rem;
+		margin-right: -10rem;
+
+		text-align: left;
+	}
+
+
+	#Services{
+
+
+		margin-left: 5rem;
+		font-size: 2rem;
+		font-family: monospace;
+
+	}
+
+
+	#Info{
+
+		margin-left: 5rem;
+		font-size: 2rem;
+		font-family: monospace;
+	}
+
+	#contacts{
+		margin-right: 3rem;
+		font-size: 2rem;
+		font-family: monospace;
+		margin-left: -10rem;
+	}
+
+
+
+	div{
+		text-align: center;
+	}
+
+
+	#footer-names{
+		display: inline-block;
+		text-align: left;
+
+	}
+
+	/*#first-image {
+
+		width: 70%;
+		height: 30%;
+		text-align: center;
+	}
+
+	#third-image{
+			width: 70%;
+		height: 30%;
+		text-align: center;
+	}
+
+	#second-image {
+
+			width: 70%;
+		height: 30%;
+		text-align: center;
+
+	}
+*/
+
+	.d-block{
+
+		height: 40rem;
+		width: 53%;
+		margin-left: 24rem;
+		-moz-box-shadow: 10px 10px 5px #ccc;
+  		-webkit-box-shadow: 10px 10px 5px #ccc;
+ 		 box-shadow: 10px 10px 5px #ccc;
+  		-moz-border-radius:25px;
+ 		 -webkit-border-radius:25px;
+  		border-radius:25px
+		
+
+	}
+
+	#word1{
+
+		color: white;
+	}
+
+
+	section{
+
+		display:flex;
+		margin-left: 20rem;
+	}
+
+	#section1{
+
+		margin-right: 5rem;
+		margin-left: -4rem;
+		border: solid;
+	}
+
+
+	#section2 img{
+		height: 30rem;
+
+	}
+
+
+	.contact{
+
+		
+		margin-left: -25rem;
+		font-size: 1rem;
+		font-family: cursive;
+		list-style: none;
+	}
+
+	.Info{
+
+		margin-top: -4rem;
+		margin-left: 4rem;
+		font-size: 1rem;
+		font-family: cursive;
+		list-style: none;
+	}
+
+
+	.Services{
+
+		margin-left: 28rem;
+		margin-top: -5.5rem;
+		font-size: 1rem;
+		font-family: cursive;
+		list-style: none;
+	}
+
+
+
+
+
+	#About-Body{
+
+
+
+		background-color: aliceblue;
+
+		
+	}
+
+
+	#Us{
+
+		margin-bottom: -50rem;
+		margin-right: 10rem;
+	}
+
+
+
+.forecast {
+    margin: 0;
+    padding: .3rem;
+    background-color: #eee;
+    font: 1rem 'Fira Sans', sans-serif;
+    text-align: center;
+}
+
+.forecast > h1,
+.day-forecast {
+    margin: .5rem;
+    padding: .3rem;
+    font-size: 1.2rem;
+}
+
+.day-forecast {
+    background: right/contain content-box border-box no-repeat
+        url('/media/examples/rain.svg') white;
+}
+
+.day-forecast > h2,
+.day-forecast > p {
+    margin: .2rem;
+    font-size: 1rem;
+}
+
+
+#mess{
+
+	color: white;
+	text-align: center;
+}

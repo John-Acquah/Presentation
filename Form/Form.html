@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Form</title>
+	<link rel="stylesheet" type="text/css" href="Form.css">
+	<script type="text/javascript" src="Form.js"> ></script>
+</head>
+<body style="background-image: url(bg.jpg)">
+	<h1 style="text-align: center"><b>Input Your Registration Details<b> </h1>
+
+	<form id="Form" >	
+		<div class="Form2">
+			    <input required="" type="text" id="fname" name="fname" onblur="FNameValidation()" placeholder="first name"> 
+			    <label id="fnerror" style="color: red; visibility: hidden; position: absolute;"> Invalid</label>
+
+			<p>  </p>
+
+			 <input type="text" onblur="MiddleName()" id="mname" name="mname" placeholder="middle name">
+
+			<p>  </p>
+
+			   <input placeholder="last name" required="" onblur="LNameValidation()" type="text" id="lname" name="lname" >
+			   <label id="lnerror" style="color: red; visibility: hidden; position: absolute;"> Invalid</label> 
+			<p> </p>
+
+			<label id="DOB" style="text-decoration: underline"><b>Date Of Birth:<b></label><br>
+
+			 <input required="" type="date" id="DOB" value=" name="DOB" > 
+			<p>  </p>
+
+			<label id="email" style="text-decoration: underline"><b>Email<b></label><br>
+
+			 <input required="" type="email" onblur="Emailchk()" id="email1" placeholder="eg.xxxxxxx@gmail.com""> 
+			 <label id="emerror" style="color: red; visibility: hidden; position: absolute;"> Invalid</label>
+			 <p></p>
+
+			 <label id="contact" for="contact" style="text-decoration: underline"><b>Contact<b></label><br>
+			  <input required="" type="text" id="phonenumber"  onblur="ConValidation()" placeholder="xxx-xxx-xxxx" >
+			  <label id="cnerror" style="color: red; visibility: hidden; position: absolute;">Invalid</label><br> 
+			</div>
+			<br>
+			<label >Gender:
+			 	<select>
+			 	<option>Male</option>
+			 	<option>Female</option>
+			 </select>
+			 </label><br>
+			 <br>
+
+			 <label style="text-decoration: underline;"><b>Religion</b></label><br>
+			 
+			 	<input type="radio" value="Christian" name="Religion" id="Christian"> </input>
+			 	<label for="Christian">Christian</label>
+			 	<input type="radio" value="Muslim" name="Religion" id="Muslim"> </input>
+			 	<label for="Muslim">Muslim</label>
+			 	<input type="radio" value="Other" name="Religion" id="Other"> </input>
+			 	<label for="Other">Other</label>
+			 	
+			 
+			
+			 <br><br><br><br>
+
+			 <input type="submit" name="submit" id="sub"  value="Click To Save">
+
+
+			 <a href="file:///C:/Users/DeMegalands/Desktop/presentation/index1.html"> Back To Home</a>		
+			
+
+
+
+	</form>
+
+
+
+</body>
+</html>

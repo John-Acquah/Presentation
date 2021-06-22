@@ -1,0 +1,214 @@
+body{
+
+	background-color: #283533;
+}
+
+.navbar{
+
+	background-color: #060320;
+	padding: 5rem 8rem;
+	font-family: sans-serif;
+	z-index: 1000;
+	height: 4rem;
+
+}
+.navbar-brand{
+		font-size: 1.5rem;
+		font-weight: 650;
+		color: white;
+		font-family: cursive;
+
+	}
+	#navbarSupportedContent > ul > li:nth-child(n) > a{
+
+		color: #fff;
+		font-size: 1.1rem;
+		padding: 0 0.9rem;
+	}
+	#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+		color: #9BF3C0;
+	}
+
+	#navbarSupportedContent >button {
+
+		background-color:#9BF3C0 ;
+		font-weight: 600;
+		font-family: cursive;
+		padding: 0.4rem 0.7rem;
+		border-radius: 10rem;
+	}
+
+
+	.nav-link1{
+
+
+		color: white;
+		font-style: none;
+		font-size: 1rem;
+		border-radius: 10px;
+
+	}
+
+
+	.col1 {
+		display: flex;
+		list-style: none;
+
+
+	}
+
+	.col2{
+		display: flex;
+		list-style: none;
+		margin-right: 2rem;
+
+
+	}
+
+
+
+	.container{
+			
+			display: flex;
+			justify-content: space-around;
+			margin-left: 5px;
+			list-style: none;
+
+		}
+
+		#product-name,h2{
+			color: white;
+			margin-top: -350px;
+			text-align: center;
+			position: relative;
+			font-family: fantasy;
+			margin-right: -6rem;
+
+		}
+
+		
+
+		#img{
+			width: 300px;
+			height: 290px;
+			margin-left: 30px;
+			box-shadow: 0 0 10px grey;
+		}
+
+		#img:hover{
+
+			width: 400px;
+			height: 340px;
+			transition: 0.8s;
+			box-shadow: 0 0 10px grey;
+
+		}
+
+
+
+		#CL{
+			background-color: darkslategray;
+			width: 250px;
+			color: black;
+			position: relative;
+			display: flex;
+			justify-content:space-around;
+			list-style: none;
+			
+			font-family: monospace;
+			font-size: 1rem;
+			height: 40px;
+			text-align: center;
+			margin-top: -28px;
+			box-shadow: 0 0 6px ghostwhite;
+			
+			
+		}
+
+
+		div{
+		text-align: center;
+	}
+
+
+	#footer-names{
+		display: inline-block;
+		text-align: left;
+
+	}
+
+
+
+	#footer{
+
+		height: 10rem;
+		width: 100%;
+		background-color:#23789B;
+	}
+
+
+	.footer-names{
+
+		display: flex;
+		color: white;
+		list-style: none;
+		margin-left: 40rem;
+		margin-right: -10rem;
+
+		text-align: left;
+	}
+
+
+	#Services{
+
+
+		margin-left: 5rem;
+		font-size: 2rem;
+		font-family: monospace;
+
+	}
+
+
+	#Info{
+
+		margin-left: 5rem;
+		font-size: 2rem;
+		font-family: monospace;
+	}
+
+	#contacts{
+		margin-right: 3rem;
+		font-size: 2rem;
+		font-family: monospace;
+		margin-left: -10rem;
+	}
+
+
+	.contact{
+
+		
+		margin-left: -25rem;
+		font-size: 1rem;
+		font-family: cursive;
+		list-style: none;
+	}
+
+	.Info{
+
+		margin-top: -4rem;
+		margin-left: 4rem;
+		font-size: 1rem;
+		font-family: cursive;
+		list-style: none;
+	}
+
+
+	.Services{
+
+		margin-left: 28rem;
+		margin-top: -5.5rem;
+		font-size: 1rem;
+		font-family: cursive;
+		list-style: none;
+	}
+
